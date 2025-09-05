@@ -1,0 +1,8 @@
+scope: "**"
+description: "Boas práticas para resolução de bugs"
+content: |
+  - Sempre reproduza o bug com um caso mínimo antes de corrigir.
+  - Escreva um teste que falha reproduzindo o bug antes de corrigi-lo.
+  - Use logs apenas para debugging temporário, remova antes do merge.
+  - Documente a causa raiz e solução do bug no PR.
+  - Prefira corrigir a causa, não apenas o sintoma.

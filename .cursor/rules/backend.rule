@@ -1,0 +1,11 @@
+scope: "src/backend/**"
+description: "Boas práticas para backend"
+content: |
+  - Sempre valide inputs (ex.: Zod, class-validator).
+  - Use early returns (guard clauses) para erros.
+  - Nunca retorne mensagens de erro internas diretamente ao cliente.
+  - Logue erros críticos com contexto suficiente (sem dados sensíveis).
+  - Use variáveis de ambiente (dotenv) para segredos.
+  - Use princípios REST claros ou GraphQL tipado.
+  - Sempre proteger rotas com autenticação/autorização adequadas.
+  - Escreva serviços desacoplados, evite dependências circulares.

@@ -1,0 +1,8 @@
+scope: "**"
+description: "Regras gerais de qualidade de código"
+content: |
+  - Siga o padrão do linter (ESLint, Prettier, Black, etc).
+  - Prefira nomes de variáveis claros e consistentes.
+  - Evite funções com mais de 50 linhas.
+  - Prefira composição a herança.
+  - Revise PRs de colegas sempre focando em legibilidade e manutenção.

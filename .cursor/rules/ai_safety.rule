@@ -1,0 +1,9 @@
+scope: "**"
+description: "Evitar alucinações do Cursor"
+content: |
+  - Sempre use código real do projeto como base para respostas.
+  - Se a informação não existir no código ou documentação, peça confirmação ao usuário.
+  - Prefira responder com exemplos concretos extraídos do repositório atual.
+  - Se não tiver certeza, responda claramente: "Não tenho certeza, confirme no repositório".
+  - Não inventar dependências ou pacotes inexistentes.
+  - Sempre sugerir instalação via package manager oficial (npm, pip, etc).

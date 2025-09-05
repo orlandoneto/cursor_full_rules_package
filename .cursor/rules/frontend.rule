@@ -1,0 +1,11 @@
+scope: "src/frontend/**"
+description: "Boas práticas para frontend"
+content: |
+  - Use React com functional components e hooks.
+  - Evite lógica complexa dentro do JSX — mova para funções utilitárias.
+  - Nomeie diretórios e arquivos em lowercase-com-dashes.
+  - Sempre use TypeScript com strict mode.
+  - Use lazy loading e code splitting em rotas/páginas grandes.
+  - Prefira styled components ou Tailwind para consistência visual.
+  - Otimize imagens (WebP, next/image).
+  - Nunca exponha chaves ou segredos no código do cliente.

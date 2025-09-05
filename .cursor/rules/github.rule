@@ -1,0 +1,11 @@
+scope: "**"
+description: "Boas práticas de Git e GitHub"
+content: |
+  - Use commits no padrão Conventional Commits (ex.: feat:, fix:, chore:, docs:).
+  - Sempre escreva mensagens curtas e claras no título do commit.
+  - Crie PRs pequenos e com descrição objetiva.
+  - Nunca commit secrets, credenciais ou arquivos grandes (>50MB).
+  - Mantenha a branch main sempre estável; trabalhe em feature branches.
+  - Todo PR deve ter pelo menos uma revisão de colega antes de merge.
+  - Use GitHub Actions para rodar testes e linters automaticamente no CI.
+  - Escreva changelogs automáticos usando release-please ou semantic-release.

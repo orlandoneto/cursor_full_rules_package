@@ -1,0 +1,15 @@
+# 🌍 User Rules (Globais)
+
+# Estas regras se aplicam a todos os projetos no Cursor.
+
+- scope: "**"
+  description: "Regras globais de boas práticas"
+  content: |
+    - Sempre usar versionamento semântico (semver) em projetos.
+    - Escreva commits claros e no padrão conventional commits (ex.: feat:, fix:, chore:).
+    - Prefira código simples e legível a otimizações prematuras.
+    - Documente funções públicas com comentários sucintos.
+    - Sempre atualizar dependências com segurança (npm audit, pip-audit, etc).
+    - Nunca expor chaves ou credenciais no código ou no git.
+    - Revise PRs de colegas antes do merge.
+    - Siga padrões de acessibilidade (a11y) em frontend.

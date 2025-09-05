@@ -1,0 +1,9 @@
+scope: "**"
+description: "Princípios para testes e qualidade"
+content: |
+  - Todo novo código deve vir acompanhado de testes (unitários ou integração).
+  - Use Jest ou Vitest no frontend; Pytest ou unittest no Python; Jest no backend JS.
+  - Estruture testes próximos ao código (__tests__ ou *.test.ts).
+  - Nunca faça merge se os testes não passarem no CI.
+  - Use mocks/stubs para dependências externas.
+  - Escreva testes claros, legíveis e independentes.
